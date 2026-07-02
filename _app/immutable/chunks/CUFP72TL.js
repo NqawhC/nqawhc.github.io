@@ -1,0 +1,1 @@
+var e={fail:`#E05252`,core:`#E0A93C`,silver:`#4C9BE0`,gold:`#3FA85F`},t={fail:`Miss`,core:`Basic`,silver:`Solid`,gold:`Complete`},n=[`January`,`February`,`March`,`April`,`May`,`June`,`July`,`August`,`September`,`October`,`November`,`December`];function r(e){let[t,r,i]=e.split(`-`).map(Number);return`${i} ${n[r-1]} ${t}`}export{e as n,t as r,r as t};
