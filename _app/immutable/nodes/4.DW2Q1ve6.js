@@ -12,8 +12,9 @@ import{A as e,B as t,C as n,F as r,I as i,K as a,L as o,N as s,O as c,Q as l,R a
 			swallow the gaps between them whole.</p> <blockquote>On the hardest tasks the same harness scores a basic attempt on one run and a solid fix on the next,
 			a full grade apart, with nothing changed between them but the random seed.</blockquote> <p>The run-to-run swing is that wide, so with only 2 or 3 runs the noise decides which harness looks
 			best, and a ranking that changes every time you rerun it is no ranking at all. The chart below puts
-			the three harnesses on one axis, and they land in a single overlapping band.</p> <figure class="my-6"><div class="mb-2 text-[14px] font-semibold text-fg">Quality: grade per run</div> <!> <figcaption class="mt-3 text-[13px] leading-relaxed text-mut">Each dot is one run's grade, with the mean and 95% confidence interval. Every interval overlaps
-				every other: at these sample sizes nothing separates cleanly from the noise.</figcaption></figure> <h2>The difference is time and tokens</h2> <p>What separates the harnesses is efficiency, and Claude Code is the outlier by a wide margin, several
+			the three harnesses on one axis, and they land in a single overlapping band.</p> <figure class="my-6"><div class="mb-2 text-[14px] font-semibold text-fg">Quality: grade per run</div> <!> <figcaption class="mt-3 text-[13px] leading-relaxed text-mut">Each dot is one of 24 runs per harness, three on each of the eight tasks, with the mean and 95%
+				confidence interval. Every interval overlaps every other: even at two dozen runs, nothing separates
+				cleanly from the noise.</figcaption></figure> <h2>The difference is time and tokens</h2> <p>What separates the harnesses is efficiency, and Claude Code is the outlier by a wide margin, several
 			times the tokens and the wall-clock of either lean harness to reach the same fix. The cost is all on the output side, in what the model generates and the tools it runs. The three read
 			very differently too, Claude Code exploring far more, but on this model that barely registers, because
 			DeepSeek V4 Flash reads input at nearly the same speed at 10K tokens or 200K, so heavy context is close
