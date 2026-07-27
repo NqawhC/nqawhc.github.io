@@ -199,5 +199,66 @@
       "read",
       "read"
     ]
+  },
+  "Nanocoder": {
+    "runs": 64,
+    "calls_per_run": 37.3,
+    "edits_per_run": 2.8,
+    "reread_ratio": 1.81,
+    "first_edit_frac": 0.72,
+    "tools_per_turn": 1.0,
+    "investigate_pct": 82,
+    "act_pct": 8,
+    "composition": {
+      "read": 42,
+      "search": 30,
+      "edit": 8,
+      "write": 0,
+      "bash": 9,
+      "delegate": 2,
+      "plan": 8,
+      "other": 1
+    },
+    "bash_class": {
+      "verify": 93,
+      "inspect": 7
+    },
+    "ribbon": [
+      "read",
+      "read",
+      "delegate",
+      "search",
+      "search",
+      "search",
+      "search",
+      "search",
+      "search",
+      "search",
+      "search",
+      "read",
+      "read",
+      "read",
+      "read",
+      "search",
+      "read",
+      "search",
+      "search",
+      "read",
+      "search",
+      "read",
+      "read",
+      "read",
+      "read",
+      "search",
+      "read",
+      "plan",
+      "read",
+      "edit",
+      "bash",
+      "bash",
+      "bash",
+      "read",
+      "plan"
+    ]
   }
 }
